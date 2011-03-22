@@ -1,0 +1,4 @@
+rvm ruby-1.9.2@black-cat-in.net
+
+export AUTOFEATURE=true
+
