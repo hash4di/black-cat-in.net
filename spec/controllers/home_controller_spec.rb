@@ -15,7 +15,7 @@ describe HomeController do
     describe "route" do
       subject { { :get => "/" } }
 
-      it { should route_to(:controller => "homes", :action => "show") }
+      it { should route_to(:controller => "home", :action => "show") }
     end
   end
 

@@ -1,1 +1,25 @@
 =image_tag("rails.png", :id => 'logo')
+
+#photo_button
+  =link_to("Foto", photography_path)
+
+#stylization_button
+  =link_to("Fryz", stylization_path)
+
+#facebook_button
+  =link_to(image_tag("rails.png", :id => 'facebook'), "http://www.facebook.com/CzarnyKot")
+
+%ul#friends_list
+  %li
+    =link_to("Konarowska", "http://www.facebook.com/konarowska")
+  %li
+    =link_to("Galeria Wizji Panny Joanny", "http://www.etnodizajn.pl/praktyka/portfolio/asjaakoval")
+  %li
+    =link_to("Aleksandra Kozlik", "http://www.ksania.wordpress.com")
+  %li
+    =link_to("CGK", "http://cgk.czestochowa.pl")
+
+#blog_button
+  =link_to(image_tag("rails.png", :id => 'blog_image'), "http://blackcatstudio.wordpress.com")
+
+#footer
