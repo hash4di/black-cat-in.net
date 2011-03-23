@@ -1,7 +1,3 @@
-Then /^I should see Black Cat Logo Image$/ do
- page.should have_xpath("//img[@id='logo']") 
-end
-
 Then /^I should have Foto Button link$/ do
   page.should have_xpath("//div[@id='photo_button']/a[@href='/photography'][contains(text(), \"Foto\")]")
 end
@@ -32,9 +28,5 @@ end
 
 Then /^I should have external Blog Image link$/ do
   page.should have_xpath("//div[@id='blog_button']/a[@href='http://blackcatstudio.wordpress.com']/img[@id='blog_image']")
-end
-
-Then /^I should see Footer$/ do
-  page.should have_xpath("//div[@id='footer']")
 end
 
