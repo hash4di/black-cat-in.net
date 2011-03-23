@@ -1,6 +1,6 @@
 Then /^I should see Black Cat Logo Image$/ do
     page.should have_xpath("//img[@id='logo']")
-  end
+end
 
 Then /^I should see Black Cat Name$/ do
   page.should have_xpath("//span[@id='name'][contains(text(), \"Black Cat\")]")

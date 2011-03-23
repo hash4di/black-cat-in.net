@@ -1,5 +1,5 @@
 Then /^I should have Foto Button link$/ do
-  page.should have_xpath("//div[@id='photo_button']/a[@href='/photography'][contains(text(), \"Foto\")]")
+  page.should have_xpath("//div[@id='photo_button']/a[@href='/photographs'][contains(text(), \"Foto\")]")
 end
 
 Then /^I should have Fryz Button link$/ do

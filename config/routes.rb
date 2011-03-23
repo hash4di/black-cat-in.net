@@ -1,6 +1,6 @@
 BlackCatInNet::Application.routes.draw do
   resource :home
-  resource :photography
+  resource :photographs
   resource :stylization
 
   root :to => "home#show"
