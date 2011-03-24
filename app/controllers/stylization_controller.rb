@@ -1,2 +1,0 @@
-class StylizationController < ApplicationController
-end
