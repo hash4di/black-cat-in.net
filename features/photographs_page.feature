@@ -7,8 +7,8 @@ Feature: Photographs Page
 
     And I should see Photographer Image
     And I should see Photographer Description "Example Photographer Description"
-    And I should see Contact Information "Example Contact Information"
-    And I should have Photo Gallery
-    And I should see Cat Image
+    And I should see Photographer Contact Information "Example Photographer Contact Information"
+    And I should have Photographs Gallery
+    And I should see Photographer Cat Image
 
     And I should see Footer

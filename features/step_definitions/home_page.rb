@@ -3,7 +3,7 @@ Then /^I should have Foto Button link$/ do
 end
 
 Then /^I should have Fryz Button link$/ do
-  page.should have_xpath("//div[@id='stylization_button']/a[@href='/stylization'][contains(text(), \"Fryz\")]")
+  page.should have_xpath("//div[@id='stylization_button']/a[@href='/stylizations'][contains(text(), \"Fryz\")]")
 end
 
 Then /^I should have external Facebook Image link$/ do
