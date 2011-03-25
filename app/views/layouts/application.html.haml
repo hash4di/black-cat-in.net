@@ -8,8 +8,10 @@
 
   %body
     #header
-      =image_tag("rails.png", :id => 'logo')
-      %span#name Black Cat
+      #logo_image
+        =image_tag("rails.png", :id => 'logo')
+      #name
+        %span Black Cat
 
     #content
       = yield
