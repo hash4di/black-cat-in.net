@@ -4,6 +4,8 @@ gem 'rails', '3.0.5'
 gem 'pg', '0.10.1'
 gem 'haml', '3.0.25'
 gem 'inherited_resources', '1.2.1'
+gem 'compass', '0.10.6'
+gem 'compass-960-plugin', '0.10.1', :require => 'ninesixty'
 
 group :development do
   gem 'heroku', '1.6.3'
