@@ -1,0 +1,10 @@
+/* line 2, ../../../app/stylesheets/text/header.sass */
+#header #logo_image {
+  font: bold 3em Arial;
+  color: aaa;
+}
+/* line 5, ../../../app/stylesheets/text/header.sass */
+#header #name {
+  font: 1em Arial;
+  color: aaa;
+}

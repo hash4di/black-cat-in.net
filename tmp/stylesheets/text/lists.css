@@ -1,0 +1,6 @@
+/* line 2, ../../../app/stylesheets/text/lists.sass */
+ul li {
+  line-height: 1.6;
+  margin: 0px 0px 2px;
+  padding: 0px 0px 0px 14px;
+}
