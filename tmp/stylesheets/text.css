@@ -88,7 +88,6 @@ fieldset {
 /* line 1, ../../app/stylesheets/text/defaults.sass */
 body {
   margin-top: 1em;
-  background: black;
   font-size: 14px;
   color: white;
 }
@@ -121,24 +120,72 @@ ul li {
 }
 
 /* line 1, ../../app/stylesheets/text/home.sass */
-#photo_button,
-#stylization_button,
-#facebook_button,
-#left_list,
-#right_list,
-#blog_button {
-  text-align: center;
+body {
+  background: black;
 }
 
-/* line 2, ../../app/stylesheets/text/header.sass */
-#header #logo_image {
-  font: bold 3em Arial;
-  color: aaa;
+/* line 5, ../../app/stylesheets/text/home.sass */
+#home #content {
+  background-image: url("/images/cat.jpg");
 }
-/* line 5, ../../app/stylesheets/text/header.sass */
+/* line 7, ../../app/stylesheets/text/home.sass */
+#home #content #photo_button {
+  overflow: hidden;
+  text-align: center;
+}
+/* line 8, ../../app/stylesheets/text/home.sass */
+#home #content #photo_button a {
+  color: red;
+}
+/* line 12, ../../app/stylesheets/text/home.sass */
+#home #content #stylization_button {
+  overflow: hidden;
+  text-align: right;
+}
+/* line 13, ../../app/stylesheets/text/home.sass */
+#home #content #stylization_button a {
+  color: red;
+}
+/* line 17, ../../app/stylesheets/text/home.sass */
+#home #content #left_list {
+  text-align: right;
+}
+/* line 18, ../../app/stylesheets/text/home.sass */
+#home #content #left_list a {
+  color: gray;
+}
+/* line 21, ../../app/stylesheets/text/home.sass */
+#home #content #facebook_button,
+#home #content #blog_button {
+  text-align: center;
+}
+/* line 23, ../../app/stylesheets/text/home.sass */
+#home #content #facebook_button a,
+#home #content #blog_button a {
+  color: black;
+}
+/* line 26, ../../app/stylesheets/text/home.sass */
+#home #content #right_list {
+  text-align: left;
+}
+/* line 27, ../../app/stylesheets/text/home.sass */
+#home #content #right_list a {
+  color: gray;
+}
+
+/* line 3, ../../app/stylesheets/text/header.sass */
+#header #logo_image a {
+  color: black;
+}
+/* line 6, ../../app/stylesheets/text/header.sass */
+#header #logo_image img#logo {
+  width: 120px;
+  height: 120px;
+}
+/* line 10, ../../app/stylesheets/text/header.sass */
 #header #name {
   text-align: center;
-  font: 1em Arial;
+  font: 5em Arial;
   color: aaa;
 }
 
@@ -148,4 +195,8 @@ ul li {
   color: bbb;
 }
 
-@import url(text/photographs.css);
+/* line 4, ../../app/stylesheets/text/photographs.sass */
+#photographs #content #photographer_photo img#photographer {
+  width: 160px;
+  height: 260px;
+}

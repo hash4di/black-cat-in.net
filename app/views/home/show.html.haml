@@ -1,17 +1,24 @@
 #home
   #content
+    .vertical_spacer_15
+    .horizontal_spacer_3
     #photo_button
       =link_to("Foto", photographs_path)
+    .horizontal_spacer
     #stylization_button
       =link_to("Fryz", stylizations_path)
-    #facebook_button
-      =link_to(image_tag("rails.png", :id => 'facebook'), "http://www.facebook.com/CzarnyKot")
+    .vertical_spacer_5
+    .horizontal_spacer
     #left_list
       %ul#friends_list
         %li
           =link_to("Konarowska", "http://www.facebook.com/konarowska")
         %li
           =link_to("Galeria Wizji Panny Joanny", "http://www.etnodizajn.pl/praktyka/portfolio/asjaakoval")
+    .horizontal_spacer
+    #facebook_button
+      =link_to(image_tag("rails.png", :id => 'facebook'), "http://www.facebook.com/CzarnyKot")
+    .horizontal_spacer
     #right_list
       %ul#friends_list
         %li
