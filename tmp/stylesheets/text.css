@@ -87,7 +87,10 @@ fieldset {
 
 /* line 1, ../../app/stylesheets/text/defaults.sass */
 body {
+  margin-top: 1em;
+  background: black;
   font-size: 14px;
+  color: white;
 }
 
 /* line 1, ../../app/stylesheets/text/headers.sass */
@@ -118,8 +121,13 @@ ul li {
 }
 
 /* line 1, ../../app/stylesheets/text/home.sass */
-#photo_button {
-  background: red;
+#photo_button,
+#stylization_button,
+#facebook_button,
+#left_list,
+#right_list,
+#blog_button {
+  text-align: center;
 }
 
 /* line 2, ../../app/stylesheets/text/header.sass */
@@ -129,6 +137,7 @@ ul li {
 }
 /* line 5, ../../app/stylesheets/text/header.sass */
 #header #name {
+  text-align: center;
   font: 1em Arial;
   color: aaa;
 }

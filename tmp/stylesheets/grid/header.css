@@ -7,7 +7,7 @@ Syntax error: Undefined mixin 'grid-system'.
 2:   +grid-system(12)
 3:   +grid-container
 4:   #logo_image
-5:     +grid(1)
+5:     +grid(2)
 6:     +alpha
 7:   #name
 
@@ -79,4 +79,4 @@ app/stylesheets/grid/header.sass:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'grid-system'.\A         on line 2 of app/stylesheets/grid/header.sass, in `grid-system'\A         from line 2 of app/stylesheets/grid/header.sass\A \A 1: #header\A 2:   +grid-system(12)\A 3:   +grid-container\A 4:   #logo_image\A 5:     +grid(1)\A 6:     +alpha\A 7:   #name"; }
+  content: "Syntax error: Undefined mixin 'grid-system'.\A         on line 2 of app/stylesheets/grid/header.sass, in `grid-system'\A         from line 2 of app/stylesheets/grid/header.sass\A \A 1: #header\A 2:   +grid-system(12)\A 3:   +grid-container\A 4:   #logo_image\A 5:     +grid(2)\A 6:     +alpha\A 7:   #name"; }

@@ -5,6 +5,7 @@
 }
 /* line 5, ../../../app/stylesheets/text/header.sass */
 #header #name {
+  text-align: center;
   font: 1em Arial;
   color: aaa;
 }
