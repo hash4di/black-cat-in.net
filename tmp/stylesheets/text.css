@@ -124,51 +124,51 @@ body {
   background: black;
 }
 
-/* line 5, ../../app/stylesheets/text/home.sass */
+/* line 6, ../../app/stylesheets/text/home.sass */
 #home #content {
   background-image: url("/images/cat.jpg");
 }
-/* line 7, ../../app/stylesheets/text/home.sass */
+/* line 8, ../../app/stylesheets/text/home.sass */
 #home #content #photo_button {
   overflow: hidden;
   text-align: center;
 }
-/* line 8, ../../app/stylesheets/text/home.sass */
+/* line 9, ../../app/stylesheets/text/home.sass */
 #home #content #photo_button a {
   color: red;
 }
-/* line 12, ../../app/stylesheets/text/home.sass */
+/* line 13, ../../app/stylesheets/text/home.sass */
 #home #content #stylization_button {
   overflow: hidden;
   text-align: right;
 }
-/* line 13, ../../app/stylesheets/text/home.sass */
+/* line 14, ../../app/stylesheets/text/home.sass */
 #home #content #stylization_button a {
   color: red;
 }
-/* line 17, ../../app/stylesheets/text/home.sass */
+/* line 18, ../../app/stylesheets/text/home.sass */
 #home #content #left_list {
   text-align: right;
 }
-/* line 18, ../../app/stylesheets/text/home.sass */
+/* line 19, ../../app/stylesheets/text/home.sass */
 #home #content #left_list a {
   color: gray;
 }
-/* line 21, ../../app/stylesheets/text/home.sass */
+/* line 22, ../../app/stylesheets/text/home.sass */
 #home #content #facebook_button,
 #home #content #blog_button {
   text-align: center;
 }
-/* line 23, ../../app/stylesheets/text/home.sass */
+/* line 24, ../../app/stylesheets/text/home.sass */
 #home #content #facebook_button a,
 #home #content #blog_button a {
   color: black;
 }
-/* line 26, ../../app/stylesheets/text/home.sass */
+/* line 27, ../../app/stylesheets/text/home.sass */
 #home #content #right_list {
   text-align: left;
 }
-/* line 27, ../../app/stylesheets/text/home.sass */
+/* line 28, ../../app/stylesheets/text/home.sass */
 #home #content #right_list a {
   color: gray;
 }
@@ -184,8 +184,9 @@ body {
 }
 /* line 10, ../../app/stylesheets/text/header.sass */
 #header #name {
+  font-family: "Mountains of Christmas";
   text-align: center;
-  font: 5em Arial;
+  font-size: 7em;
   color: aaa;
 }
 
@@ -195,7 +196,12 @@ body {
   color: bbb;
 }
 
-/* line 4, ../../app/stylesheets/text/photographs.sass */
+/* line 1, ../../app/stylesheets/text/photographs.sass */
+#photographs {
+  font-family: "Cabin Sketch";
+  font-size: 20px;
+}
+/* line 6, ../../app/stylesheets/text/photographs.sass */
 #photographs #content #photographer_photo img#photographer {
   width: 160px;
   height: 260px;

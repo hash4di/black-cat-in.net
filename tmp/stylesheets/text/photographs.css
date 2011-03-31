@@ -1,4 +1,9 @@
-/* line 4, ../../../app/stylesheets/text/photographs.sass */
+/* line 1, ../../../app/stylesheets/text/photographs.sass */
+#photographs {
+  font-family: "Cabin Sketch";
+  font-size: 20px;
+}
+/* line 6, ../../../app/stylesheets/text/photographs.sass */
 #photographs #content #photographer_photo img#photographer {
   width: 160px;
   height: 260px;

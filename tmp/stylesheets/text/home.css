@@ -3,51 +3,51 @@ body {
   background: black;
 }
 
-/* line 5, ../../../app/stylesheets/text/home.sass */
+/* line 6, ../../../app/stylesheets/text/home.sass */
 #home #content {
   background-image: url("/images/cat.jpg");
 }
-/* line 7, ../../../app/stylesheets/text/home.sass */
+/* line 8, ../../../app/stylesheets/text/home.sass */
 #home #content #photo_button {
   overflow: hidden;
   text-align: center;
 }
-/* line 8, ../../../app/stylesheets/text/home.sass */
+/* line 9, ../../../app/stylesheets/text/home.sass */
 #home #content #photo_button a {
   color: red;
 }
-/* line 12, ../../../app/stylesheets/text/home.sass */
+/* line 13, ../../../app/stylesheets/text/home.sass */
 #home #content #stylization_button {
   overflow: hidden;
   text-align: right;
 }
-/* line 13, ../../../app/stylesheets/text/home.sass */
+/* line 14, ../../../app/stylesheets/text/home.sass */
 #home #content #stylization_button a {
   color: red;
 }
-/* line 17, ../../../app/stylesheets/text/home.sass */
+/* line 18, ../../../app/stylesheets/text/home.sass */
 #home #content #left_list {
   text-align: right;
 }
-/* line 18, ../../../app/stylesheets/text/home.sass */
+/* line 19, ../../../app/stylesheets/text/home.sass */
 #home #content #left_list a {
   color: gray;
 }
-/* line 21, ../../../app/stylesheets/text/home.sass */
+/* line 22, ../../../app/stylesheets/text/home.sass */
 #home #content #facebook_button,
 #home #content #blog_button {
   text-align: center;
 }
-/* line 23, ../../../app/stylesheets/text/home.sass */
+/* line 24, ../../../app/stylesheets/text/home.sass */
 #home #content #facebook_button a,
 #home #content #blog_button a {
   color: black;
 }
-/* line 26, ../../../app/stylesheets/text/home.sass */
+/* line 27, ../../../app/stylesheets/text/home.sass */
 #home #content #right_list {
   text-align: left;
 }
-/* line 27, ../../../app/stylesheets/text/home.sass */
+/* line 28, ../../../app/stylesheets/text/home.sass */
 #home #content #right_list a {
   color: gray;
 }

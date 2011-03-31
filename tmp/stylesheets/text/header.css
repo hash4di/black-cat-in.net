@@ -9,7 +9,8 @@
 }
 /* line 10, ../../../app/stylesheets/text/header.sass */
 #header #name {
+  font-family: "Mountains of Christmas";
   text-align: center;
-  font: 5em Arial;
+  font-size: 7em;
   color: aaa;
 }
