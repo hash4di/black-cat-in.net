@@ -1,5 +1,5 @@
 Sass::Plugin.options.merge!(
-  :template_location => 'app/stylesheets/',
+  :template_location => 'app/stylesheets',
   :css_location => 'tmp/stylesheets'
 )
 
