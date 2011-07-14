@@ -5,7 +5,7 @@ gem 'pg','0.11.0'
 gem 'haml', '3.1.2'
 gem 'inherited_resources'
 gem 'compass'
-gem 'compass-960-plugin', '0.10.1', :require => 'ninesixty'
+gem 'compass-960-plugin', '0.10.4', :require => 'ninesixty'
 
 group :development do
   gem 'heroku', '2.3.6'
