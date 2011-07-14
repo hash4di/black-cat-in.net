@@ -184,7 +184,7 @@ DEPENDENCIES
   autotest-notification (= 2.3.1)
   awesome_print
   capybara (= 0.4.1.2)
-  compass (= 0.11.5)
+  compass
   compass-960-plugin (= 0.10.1)
   cucumber (= 0.10.2)
   cucumber-rails (= 0.4.0)
@@ -197,6 +197,8 @@ DEPENDENCIES
   pg (= 0.11.0)
   rails (= 3.0.8)
   remarkable_activerecord (= 4.0.0.alpha4)
+  rspec
+  rspec-rails
   rspec_tag_matchers (= 1.0.0)
   spork (= 0.8.4)
   taps (= 0.3.23)

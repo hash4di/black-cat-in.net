@@ -4,7 +4,7 @@ gem 'rails', '3.0.8'
 gem 'pg','0.11.0'
 gem 'haml', '3.1.2'
 gem 'inherited_resources'
-gem 'compass', '0.11.5'
+gem 'compass'
 gem 'compass-960-plugin', '0.10.1', :require => 'ninesixty'
 
 group :development do
@@ -16,8 +16,8 @@ group :development do
 end
 
 group :test do
-# gem 'rspec'
-# gem 'rspec-rails'
+  gem 'rspec'
+  gem 'rspec-rails'
   gem 'capybara', '0.4.1.2'
   gem 'database_cleaner', '0.6.6'
   gem 'cucumber-rails', '0.4.0'
