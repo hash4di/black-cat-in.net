@@ -155,13 +155,11 @@ body {
   color: gray;
 }
 /* line 22, ../../app/stylesheets/text/home.sass */
-#home #content #facebook_button,
-#home #content #blog_button {
+#home #content #facebook_button, #home #content #blog_button {
   text-align: center;
 }
 /* line 24, ../../app/stylesheets/text/home.sass */
-#home #content #facebook_button a,
-#home #content #blog_button a {
+#home #content #facebook_button a, #home #content #blog_button a {
   color: black;
 }
 /* line 27, ../../app/stylesheets/text/home.sass */
