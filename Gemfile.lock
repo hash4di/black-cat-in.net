@@ -189,7 +189,7 @@ DEPENDENCIES
   cucumber (= 0.10.2)
   cucumber-rails (= 0.4.0)
   database_cleaner (= 0.6.6)
-  haml (= 3.1.2)
+  haml
   heroku (= 2.3.6)
   hirb (= 0.4.5)
   inherited_resources
@@ -200,6 +200,7 @@ DEPENDENCIES
   rspec
   rspec-rails
   rspec_tag_matchers (= 1.0.0)
+  sass
   spork (= 0.8.4)
   taps (= 0.3.23)
   wirble (= 0.1.3)

@@ -1,11 +1,15 @@
 source 'http://rubygems.org'
 
+#Framework
 gem 'rails', '3.0.8'
 gem 'pg','0.11.0'
-gem 'haml', '3.1.2'
 gem 'inherited_resources'
-gem 'compass'
+
+#Graph
+gem 'sass', '3.1.4'
+gem 'compass', '0.11.5'
 gem 'compass-960-plugin', '0.10.4', :require => 'ninesixty'
+gem 'haml', '3.1.2'
 
 group :development do
   gem 'heroku', '2.3.6'
