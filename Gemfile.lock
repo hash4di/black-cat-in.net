@@ -184,12 +184,12 @@ DEPENDENCIES
   autotest-notification (= 2.3.1)
   awesome_print
   capybara (= 0.4.1.2)
-  compass
+  compass (= 0.11.5)
   compass-960-plugin (= 0.10.4)
   cucumber (= 0.10.2)
   cucumber-rails (= 0.4.0)
   database_cleaner (= 0.6.6)
-  haml
+  haml (= 3.1.2)
   heroku (= 2.3.6)
   hirb (= 0.4.5)
   inherited_resources
@@ -200,7 +200,7 @@ DEPENDENCIES
   rspec
   rspec-rails
   rspec_tag_matchers (= 1.0.0)
-  sass
+  sass (= 3.1.4)
   spork (= 0.8.4)
   taps (= 0.3.23)
   wirble (= 0.1.3)
