@@ -40,6 +40,6 @@ module BlackCatInNet
     config.filter_parameters += [:password]
 
     #XXXSASS engine
-    #config.generators.stylesheet_engine = :sass
+    config.generators.stylesheet_engine = :sass
   end
 end
